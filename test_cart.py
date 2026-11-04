@@ -2,7 +2,7 @@ import pytest
 from cart import cart_total
 
 def test_cart_total_simple():
-    assert cart_total([100, 50, 25]) == 999.0
+    assert cart_total([100, 50, 25]) == 175.0
 
 def test_cart_total_empty():
     assert cart_total([]) == 0.0
